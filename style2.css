@@ -1,0 +1,48 @@
+body {
+    background-color: #FDFDCB;
+}
+.head {
+    display: flex;
+    justify-content: center;
+}
+.search {
+    border: #BDF2D5 1px solid;
+    border-radius: 30px;
+    padding: 10px;
+    flex: 1;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+}
+.btn {
+    margin: 3px;
+    font-weight: bold;
+}
+p {
+    
+    margin: 5px;
+}
+.about {
+    display: none;
+}
+h2 {
+    margin: 0px;
+}
+button {
+    background: none;
+    border: #BDF2D5 1px solid;
+    padding: 5px;
+    font-size: 14px;
+}
+button:hover {
+    cursor: pointer;
+}
